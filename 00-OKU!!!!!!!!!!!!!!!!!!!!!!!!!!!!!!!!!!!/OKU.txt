@@ -1,0 +1,9 @@
+react-example1 projesi aslında tek bir projenin yavaş yavaş modifiye edilerek 
+değiştirilmiş halidir.
+
+01, 02 şeklinde numaralandırılmış her bölüm projenin belirli bir zamandaki 
+görüntüsüdür.
+
+Burada temel amaç React projesini herhangi bir araç kullanmadan inşa etmeye 
+başlayıp adım adım bu araçları ekleyerek hangi aracın ne işe yaradığını 
+anlayabilmek ve React'in arka planda nasıl çalıştığını farketmektir.
