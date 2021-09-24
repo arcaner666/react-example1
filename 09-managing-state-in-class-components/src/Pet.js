@@ -6,7 +6,6 @@ const Pet = ({ name, animal, breed, images, location, id }) => {
     hero = images[0];
   }
   return (
-    // React Router'da a HTML etiketi yerine Link component'i kullanılır. href özelliği yerine ise to özelliği kullanılır. Bu sayede başka bir sayfaya geçilmek istendiğinde tarayıcının sayfayı yenilemesi engellenir.
     <Link to={`/details/${id}`} className="pet">
       <div className="image-container">
         <img src={hero} alt={name} />
