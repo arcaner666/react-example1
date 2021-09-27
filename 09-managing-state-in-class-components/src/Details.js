@@ -2,8 +2,9 @@ import { Component } from "react";
 import { withRouter } from "react-router-dom";
 
 // React'de fonksiyon şeklinde oluşturulan component'lerin yanında bir de class componentler vardır. import { Component } from "react"; satırında bunları entegre ediyoruz.
-// Bu şekilde componentler ile React yazımı aslında React'in orijinal yazım şeklidir. React With Hooks yani fonksiyon şeklinde yazım çok yeni bir yöntemdir.
+// Bu şekilde componentler ile React yazımı aslında React'in orijinal yazım şeklidir. React With Hooks yani fonksiyon şeklinde yazım çok yeni bir yöntemdir. Fakat React With Hooks'un popülaritesi gittikçe artmaktadır.
 class Details extends Component {
+  // Eskiden constructor yerine componentWillMount fonksiyonu kullanılırdı. Artık önerilmiyor. Bu iki fonksiyon ise component oluşturulmadan önce çalışacak blokları belirler.
   constructor() {
     // React'de class component'ların constructor'larında super fonksiyonu olması zorunludur.
     super();

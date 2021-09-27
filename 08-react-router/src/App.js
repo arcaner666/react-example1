@@ -14,7 +14,7 @@ const App = () => {
             <h1 id="my-brand">Adopt Me</h1>
           </Link>
         </header>
-        {/* Bu component ise path'ler eşleşse bile yalnızca ilk eşleşenin görüntülenmesini sağlar. */}
+        {/* Switch component'i ise path'ler eşleşse bile yalnızca ilk eşleşenin görüntülenmesini sağlar. */}
         <Switch>
           {/* Burada Route componenti kullanıcıyı başka bir sayfaya yönlendirmemizi sağlar. :id yapısı sayesinde ise Details component'ine id değeri gönderilerek istenen verilerin yüklenmesi sağlanır. Değişkenler route'lara bu şekilde gönderilir. */}
           <Route path="/details/:id">
